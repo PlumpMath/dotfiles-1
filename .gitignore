@@ -22,8 +22,8 @@ emacs.d/tmp/
 emacs.d/*unison*
 fonts/
 unity/
-vim/autoload/plug*
-vim/pack/bundles
+vim/pack/bundles/opt
+vim/pack/bundles/start/bundles/autoload
 vim/pack/settings/start/UltiSnips/pythonx/UltiSnips_globals.pyc
 vim/pack/settings/start/UltiSnips/pythonx/vimsnippets.pyc
 vim/tmp

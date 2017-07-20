@@ -31,9 +31,6 @@ if has('autocmd')
   autocmd!
 endif
 
-if filereadable(glob(g:dotvim . '/bundles.vim'))
-  execute 'source ' . g:dotvim . '/bundles.vim'
-endif
 filetype plugin indent on
 
 "
@@ -440,6 +437,7 @@ if has('autocmd')
 endif
 " }}}2
 " }}}1
+
 
 """ Local vimrc
 let s:user = substitute(g:dotvim, '\v/home/(\w+)/.*', '\1', '')
